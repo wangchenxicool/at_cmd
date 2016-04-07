@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	makefile	/^ARCH=ARM$/;"	m
+BOOL	serial.h	/^typedef bool  BOOL;$/;"	t
+BYTE	serial.h	/^typedef unsigned char  BYTE;$/;"	t
+CFLAG	makefile	/^CFLAG:=-DMEMWATCH -DMW_STDIO$/;"	m
+CONNECTION_CLOSED	serial.h	56;"	d
+CONNECTION_CLOSED	serial.h	86;"	d
+COUNTS	main.cpp	/^static int COUNTS = 1;$/;"	v	file:
+CROSS	makefile	/^CROSS=mipsel-openwrt-linux-$/;"	m
+DATA_TYPE_INT16	serial.h	92;"	d
+DATA_TYPE_INT32	serial.h	94;"	d
+DATA_TYPE_INT64	serial.h	96;"	d
+DATA_TYPE_INT8	serial.h	90;"	d
+DATA_TYPE_UNINT16	serial.h	93;"	d
+DATA_TYPE_UNINT32	serial.h	95;"	d
+DATA_TYPE_UNINT64	serial.h	97;"	d
+DATA_TYPE_UNINT8	serial.h	91;"	d
+DEBUG	serial.cpp	67;"	d	file:
+DOUBLE	serial.h	46;"	d
+DWORD	serial.h	/^typedef unsigned long  DWORD;$/;"	t
+FALSE	serial.h	68;"	d
+FLOAT	serial.h	45;"	d
+FLUSH_OR_CONNECT_ON_ERROR	serial.h	/^typedef enum { FLUSH_OR_CONNECT_ON_ERROR, NOP_ON_ERROR } error_handling_t;$/;"	e	enum:__anon2
+INT16	serial.h	39;"	d
+INT32	serial.h	41;"	d
+INT64	serial.h	43;"	d
+INT8	serial.h	37;"	d
+INVALID_CRC	serial.h	50;"	d
+INVALID_DATA	serial.h	49;"	d
+INVALID_EXCEPTION_CODE	serial.h	51;"	d
+IPATH	makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/include$/;"	m
+IPATH	makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/include$/;"	m
+LPATH	makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/lib$/;"	m
+LPATH	makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/lib$/;"	m
+MAX_ADU_LENGTH_RTU	serial.h	64;"	d
+MAX_ADU_LENGTH_TCP	serial.h	65;"	d
+MAX_PDU_LENGTH	serial.h	63;"	d
+MB_EXCEPTION	serial.h	57;"	d
+MB_EXCEPTION	serial.h	87;"	d
+NOP_ON_ERROR	serial.h	/^typedef enum { FLUSH_OR_CONNECT_ON_ERROR, NOP_ON_ERROR } error_handling_t;$/;"	e	enum:__anon2
+OFF	serial.h	76;"	d
+ON	serial.h	80;"	d
+OTHERSLIBPWD	makefile	/^OTHERSLIBPWD=\/home\/usrc$/;"	m
+RTU	serial.h	/^    RTU = 0, TCP$/;"	e	enum:__anon1
+SELECT_FAILURE	serial.h	54;"	d
+SELECT_FAILURE	serial.h	84;"	d
+SELECT_TIMEOUT	serial.h	53;"	d
+SELECT_TIMEOUT	serial.h	83;"	d
+SLAVE	main.cpp	9;"	d	file:
+SOCKET_FAILURE	serial.h	55;"	d
+SOCKET_FAILURE	serial.h	85;"	d
+SPACE_TIME	main.cpp	/^static int SPACE_TIME = 50;$/;"	v	file:
+SRC	makefile	/^SRC:=$(shell ls *.c)$/;"	m
+STEP_MODE	main.cpp	/^static int STEP_MODE = 0;$/;"	v	file:
+TARGET	makefile	/^TARGET:=at_cmd.bin$/;"	m
+TCP	serial.h	/^    RTU = 0, TCP$/;"	e	enum:__anon1
+TRUE	serial.h	72;"	d
+UINT16	serial.h	40;"	d
+UINT16_MAX	serial.cpp	60;"	d	file:
+UINT32	serial.h	42;"	d
+UINT64	serial.h	44;"	d
+UINT8	serial.h	38;"	d
+UNKNOWN_ERROR_MSG	serial.cpp	65;"	d	file:
+VOID	serial.h	/^typedef void  VOID;$/;"	t
+WAIT_DATA	serial.cpp	258;"	d	file:
+WAIT_TIME	main.cpp	/^static int WAIT_TIME = 0;$/;"	v	file:
+WORD	serial.h	/^typedef unsigned short WORD;$/;"	t
+_MODBUS_H_	serial.h	19;"	d
+baud	serial.h	/^    int baud;$/;"	m	struct:__anon3
+c_serial	serial.cpp	/^c_serial::c_serial (const char *device,$/;"	f	class:c_serial
+c_serial	serial.h	/^class c_serial {$/;"	c
+close	serial.cpp	/^void c_serial::close () {$/;"	f	class:c_serial
+close_rtu	serial.cpp	/^void c_serial::close_rtu () {$/;"	f	class:c_serial
+connect	serial.cpp	/^int c_serial::connect () {$/;"	f	class:c_serial
+connect_rtu	serial.cpp	/^int c_serial::connect_rtu () {$/;"	f	class:c_serial
+data_bit	serial.h	/^    uint8_t data_bit;$/;"	m	struct:__anon3
+debug	serial.h	/^    int debug;$/;"	m	struct:__anon3
+device	serial.h	/^    char device[16];$/;"	m	struct:__anon3
+device	serial.h	/^    char device[64];$/;"	m	struct:__anon3
+error_handling	serial.h	/^    uint8_t error_handling;$/;"	m	struct:__anon3
+error_handling_t	serial.h	/^typedef enum { FLUSH_OR_CONNECT_ON_ERROR, NOP_ON_ERROR } error_handling_t;$/;"	t	typeref:enum:__anon2
+error_treat	serial.cpp	/^void c_serial::error_treat (int code, const char *string) {$/;"	f	class:c_serial
+fd	serial.h	/^    int fd;$/;"	m	struct:__anon3
+flush	serial.cpp	/^void c_serial::flush () {$/;"	f	class:c_serial
+init_rtu	serial.cpp	/^void c_serial::init_rtu (const char *device,$/;"	f	class:c_serial
+ip	serial.h	/^    char ip[16];$/;"	m	struct:__anon3
+main	main.cpp	/^int main (int argc, char *argv[]) {$/;"	f
+mb_param	serial.h	/^    serial_param_t *mb_param;$/;"	m	class:c_serial
+nb_coil_status	serial.h	/^    int nb_coil_status;$/;"	m	struct:__anon4
+nb_holding_registers	serial.h	/^    int nb_holding_registers;$/;"	m	struct:__anon4
+nb_input_registers	serial.h	/^    int nb_input_registers;$/;"	m	struct:__anon4
+nb_input_status	serial.h	/^    int nb_input_status;$/;"	m	struct:__anon4
+old_tios	serial.h	/^    struct termios old_tios;$/;"	m	struct:__anon3	typeref:struct:__anon3::termios
+parity	serial.h	/^    char parity[5];$/;"	m	struct:__anon3
+port	serial.h	/^    int port;$/;"	m	struct:__anon3
+read	serial.cpp	/^int c_serial::read (uint8_t *msg, int select_time, int wait_time) {$/;"	f	class:c_serial
+send	serial.cpp	/^int c_serial::send (uint8_t *query, int query_length) {$/;"	f	class:c_serial
+serial_mapping_t	serial.h	/^} serial_mapping_t;$/;"	t	typeref:struct:__anon4
+serial_param_t	serial.h	/^} serial_param_t;$/;"	t	typeref:struct:__anon3
+set_debug	serial.cpp	/^void c_serial::set_debug (int boolean) {$/;"	f	class:c_serial
+slave	serial.h	/^    int slave;$/;"	m	struct:__anon3
+sleep	serial.cpp	/^void c_serial::sleep (long int s, long int us) {$/;"	f	class:c_serial
+stop_bit	serial.h	/^    uint8_t stop_bit;$/;"	m	struct:__anon3
+tab_coil_status	serial.h	/^    uint8_t *tab_coil_status;$/;"	m	struct:__anon4
+tab_holding_registers	serial.h	/^    uint16_t *tab_holding_registers;$/;"	m	struct:__anon4
+tab_input_registers	serial.h	/^    uint16_t *tab_input_registers;$/;"	m	struct:__anon4
+tab_input_status	serial.h	/^    uint8_t *tab_input_status;$/;"	m	struct:__anon4
+table_crc_hi	serial.cpp	/^static uint8_t table_crc_hi[] = {$/;"	v	file:
+table_crc_lo	serial.cpp	/^static uint8_t table_crc_lo[] = {$/;"	v	file:
+type_com	serial.h	/^    type_com_t type_com;$/;"	m	struct:__anon3
+type_com_t	serial.h	/^type_com_t;$/;"	t	typeref:enum:__anon1
+wprintf	serial.cpp	70;"	d	file:
+wprintf	serial.cpp	73;"	d	file:
+~c_serial	serial.cpp	/^c_serial::~c_serial () {$/;"	f	class:c_serial
